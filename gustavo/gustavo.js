@@ -46,7 +46,7 @@ function draw()
   strokeWeight(4);
   stroke(0);
   rect(displayWidth/2 - maskWidth/2, displayHeight/2 - maskHeight/2, maskWidth, maskHeight);
-  image(MouseIconImage, displayWidth - 120, displayHeight - 120 + 20, 75, 75);
+  //image(MouseIconImage, displayWidth - 120, displayHeight - 120 + 20, 75, 75);
 }
 
 function mousePressed()
