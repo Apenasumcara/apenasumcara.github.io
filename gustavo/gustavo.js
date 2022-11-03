@@ -25,7 +25,7 @@ function setup()
 function draw()
 {
   background(255);
-  image(BGImage, displayWidth/2 - mouseX/8, displayHeight/2 - mouseY/8);
+  image(BGImage, displayWidth/2 - mouseX/8 - rotationY/8, displayHeight/2 - mouseY/8 - rotationY/8);
   noStroke();
   fill(255);
   //mask
